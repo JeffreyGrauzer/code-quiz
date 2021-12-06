@@ -8,17 +8,27 @@
 </head>
 
 <body>
-<!-- Header starts here -->
-    <header>
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Click to Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  
+    <header id="header-section">
       <h1 class="page-title">Coding-Quiz</h1>
       <p class="header-text">Try to answer the following questions within the time limit. Bear in mind that incorrect answers will subtract ten from your time/score.</p>
-      
-    </header>
- 
-       <div>
-         <button class="btn" >Click to Start</button>
-       </div>
-    <script> src="./assets/js/script.js"</script>
+    </header> 
+    <script src="./assets/js/script.js"></script>
+  </div>
 </body>
 
 
